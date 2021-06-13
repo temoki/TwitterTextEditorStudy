@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		142C51AA25C6E09600AF9472 /* KeyboardGuide in Frameworks */ = {isa = PBXBuildFile; productRef = 142C51A925C6E09600AF9472 /* KeyboardGuide */; };
+		142C51AC25C6E23D00AF9472 /* EmojiListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142C51AB25C6E23D00AF9472 /* EmojiListViewController.swift */; };
+		142C51AE25C6E34100AF9472 /* HeightSelfSizingTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142C51AD25C6E34100AF9472 /* HeightSelfSizingTableView.swift */; };
+		142C51B025C6E69400AF9472 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142C51AF25C6E69400AF9472 /* Emoji.swift */; };
+		14B44AD325C43E0900A12644 /* NSWritingDirection+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B44AD225C43E0900A12644 /* NSWritingDirection+.swift */; };
 		14F4A6B125C0562400181953 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F4A6B025C0562400181953 /* AppDelegate.swift */; };
 		14F4A6B325C0562400181953 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F4A6B225C0562400181953 /* SceneDelegate.swift */; };
-		14F4A6B525C0562400181953 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F4A6B425C0562400181953 /* ViewController.swift */; };
+		14F4A6B525C0562400181953 /* EditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F4A6B425C0562400181953 /* EditorViewController.swift */; };
 		14F4A6B825C0562400181953 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F4A6B625C0562400181953 /* Main.storyboard */; };
 		14F4A6BA25C0562700181953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14F4A6B925C0562700181953 /* Assets.xcassets */; };
 		14F4A6BD25C0562700181953 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F4A6BB25C0562700181953 /* LaunchScreen.storyboard */; };
@@ -32,10 +37,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		142C51AB25C6E23D00AF9472 /* EmojiListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiListViewController.swift; sourceTree = "<group>"; };
+		142C51AD25C6E34100AF9472 /* HeightSelfSizingTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightSelfSizingTableView.swift; sourceTree = "<group>"; };
+		142C51AF25C6E69400AF9472 /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
+		14B44AD225C43E0900A12644 /* NSWritingDirection+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSWritingDirection+.swift"; sourceTree = "<group>"; };
 		14F4A6AD25C0562400181953 /* TwitterTextEditorStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterTextEditorStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14F4A6B025C0562400181953 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14F4A6B225C0562400181953 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		14F4A6B425C0562400181953 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		14F4A6B425C0562400181953 /* EditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorViewController.swift; sourceTree = "<group>"; };
 		14F4A6B725C0562400181953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		14F4A6B925C0562700181953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14F4A6BC25C0562700181953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				142C51AA25C6E09600AF9472 /* KeyboardGuide in Frameworks */,
 				14F4A6C725C0567700181953 /* TwitterTextEditor in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,7 +85,11 @@
 			children = (
 				14F4A6B025C0562400181953 /* AppDelegate.swift */,
 				14F4A6B225C0562400181953 /* SceneDelegate.swift */,
-				14F4A6B425C0562400181953 /* ViewController.swift */,
+				14F4A6B425C0562400181953 /* EditorViewController.swift */,
+				142C51AB25C6E23D00AF9472 /* EmojiListViewController.swift */,
+				142C51AF25C6E69400AF9472 /* Emoji.swift */,
+				142C51AD25C6E34100AF9472 /* HeightSelfSizingTableView.swift */,
+				14B44AD225C43E0900A12644 /* NSWritingDirection+.swift */,
 				14F4A6B625C0562400181953 /* Main.storyboard */,
 				14F4A6B925C0562700181953 /* Assets.xcassets */,
 				14F4A6BB25C0562700181953 /* LaunchScreen.storyboard */,
@@ -103,6 +117,7 @@
 			name = TwitterTextEditorStudy;
 			packageProductDependencies = (
 				14F4A6C625C0567700181953 /* TwitterTextEditor */,
+				142C51A925C6E09600AF9472 /* KeyboardGuide */,
 			);
 			productName = TwitterTextEditorStudy;
 			productReference = 14F4A6AD25C0562400181953 /* TwitterTextEditorStudy.app */;
@@ -133,6 +148,7 @@
 			mainGroup = 14F4A6A425C0562400181953;
 			packageReferences = (
 				14F4A6C525C0567700181953 /* XCRemoteSwiftPackageReference "TwitterTextEditor" */,
+				142C51A825C6E09600AF9472 /* XCRemoteSwiftPackageReference "KeyboardGuide" */,
 			);
 			productRefGroup = 14F4A6AE25C0562400181953 /* Products */;
 			projectDirPath = "";
@@ -161,9 +177,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14F4A6B525C0562400181953 /* ViewController.swift in Sources */,
+				14F4A6B525C0562400181953 /* EditorViewController.swift in Sources */,
+				14B44AD325C43E0900A12644 /* NSWritingDirection+.swift in Sources */,
+				142C51AE25C6E34100AF9472 /* HeightSelfSizingTableView.swift in Sources */,
+				142C51B025C6E69400AF9472 /* Emoji.swift in Sources */,
 				14F4A6B125C0562400181953 /* AppDelegate.swift in Sources */,
 				14F4A6B325C0562400181953 /* SceneDelegate.swift in Sources */,
+				142C51AC25C6E23D00AF9472 /* EmojiListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +387,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		142C51A825C6E09600AF9472 /* XCRemoteSwiftPackageReference "KeyboardGuide" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/niw/KeyboardGuide";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
 		14F4A6C525C0567700181953 /* XCRemoteSwiftPackageReference "TwitterTextEditor" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/twitter/TwitterTextEditor";
@@ -378,6 +406,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		142C51A925C6E09600AF9472 /* KeyboardGuide */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 142C51A825C6E09600AF9472 /* XCRemoteSwiftPackageReference "KeyboardGuide" */;
+			productName = KeyboardGuide;
+		};
 		14F4A6C625C0567700181953 /* TwitterTextEditor */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 14F4A6C525C0567700181953 /* XCRemoteSwiftPackageReference "TwitterTextEditor" */;
